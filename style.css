@@ -1,0 +1,180 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  background: black;
+  color: seashell;
+  opacity: 0.9;
+}
+header {
+  height: 69px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+header img {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 50px;
+  margin-left: 10px;
+}
+.top-nav a {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 10px;
+  text-decoration: underline;
+  color: seashell;
+}
+.container1 {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1200px;
+  opacity: 0.7;
+}
+.top {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  background-image: url(images/img-mission-background.jpg);
+  /*αυτο περαξα τελευταιο και ψιλο εφτιαξε την πρωτη εικονα(min-max)*/
+  width: 100%;
+  max-width: 1200px;
+  min-height: 700px;
+  /*αυτο περαξα τελευταιο και ψιλο εφτιαξε το κατω */
+}
+.mainlogo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.text {
+  display: inline-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: black;
+  text-align: center;
+  opacity: 0.75;
+  width: 100%;
+}
+.featuredtea {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  max-width: 1200px;
+  opacity: 0.7;
+}
+.text2 {
+  text-align: center;
+}
+.labels img {
+  height: 200px;
+  width: 300px;
+  margin-top: 10px;
+}
+.labels {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-width: auto;
+  min-height: auto;
+}
+.caption {
+  text-align: center;
+  margin-top: 10px;
+}
+.third {
+  background-image: url(images/img-locations-background.jpg);
+  background-position: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  /*αυτο περαξα τελευταιο και ψιλο εφτιαξε το κατω(min-max) */
+  flex-direction: row;
+  min-height: 500px;
+  max-width: 1200px;
+  /*αυτο περαξα τελευταιο και ψιλο εφτιαξε το κατω */
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+.text3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  opacity: 0.9;
+}
+.artic {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.adres {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  max-width: 300px;
+  padding: 0px 40px 0px 40px;
+  margin: 15px;
+}
+.center-bot{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+}
+aside{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  text-align: left;
+  opacity: 0.5;
+}
