@@ -113,7 +113,6 @@ header img {
 .third {
   background-image: url(images/img-locations-background.jpg);
   background-position: center;
-  background-repeat: no-repeat;
   display: flex;
   flex-wrap: wrap;
   /*αυτο περαξα τελευταιο και ψιλο εφτιαξε το κατω(min-max) */
